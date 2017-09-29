@@ -63,6 +63,7 @@ header {
     width: 30px;
     height: 3px;
     background: #DCD8CF;
+    transition: all ease-in-out 300ms;
 }
 
 .hamburger::before {
@@ -72,10 +73,17 @@ header {
 .hamburger::after {
     transform: translateY(3px);
 }
-
+.menu-toggle-open .hamburger {
+    transform: rotate(45deg);
+}
+.menu-toggle-open .hamburger::before {
+    opacity: 0;
+}
+.menu-toggle-open .hamburger::after {
+    transform: translateY(-3px) rotate(90deg);
+}
 .site-nav {
     width: 100%;
-    margin-bottom: 40px;
     height: 0px;
     overflow: hidden;
 }
