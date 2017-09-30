@@ -138,8 +138,36 @@ header ul li a:focus {
     .site-nav li {
         display: inline-block;
     }
-    
-    header ul li a {
+     header ul li a {
         margin-left: 25px;
+        width: auto;
     }
+    header ul li a:hover,
+    header ul li a:focus {
+        font-weight: 500;
+        letter-spacing: inherit;
+        transition: all ease-in-out 300ms;
+    }
+    header ul li a:hover::before,
+    header ul li a:focus::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #DCD8CF;
+        position: relative;
+        bottom: 10px;
+    }
+    header ul li a:hover::after,
+    header ul li a:focus::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #DCD8CF;
+        position: relative;
+        top: 10px;
+    }
+    
+   
 }
