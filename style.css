@@ -123,10 +123,27 @@ header ul li a:focus {
     letter-spacing: 2px;
     transition: all ease-in-out 300ms;
 }
+.orange-photo-section {
+}
+.orange-photo img {
+    width: 100%;
+}
+
+.txt-about-health h2 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+
+}
 
 @media(min-width: 800px) {
     .menu-toggle {
         display: none;
+    }
+    .site-nav-open {
+        height: auto;
+        padding-bottom: 0;
     }
     .site-nav {
         height: auto;
@@ -138,7 +155,7 @@ header ul li a:focus {
     .site-nav li {
         display: inline-block;
     }
-     header ul li a {
+    header ul li a {
         margin-left: 25px;
         width: auto;
     }
@@ -168,6 +185,4 @@ header ul li a:focus {
         position: relative;
         top: 10px;
     }
-    
-   
 }
