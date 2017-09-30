@@ -12,7 +12,7 @@ body {
 
 header {
     width: 100%;
-    background: #E25D33;
+    background: #ed6d00;
 }
 
 .clearfix {
@@ -115,6 +115,7 @@ header ul li a {
     color: #DCD8CF;
     width: 80%;
     margin: 15px;
+    font-size: 1rem;
 }
 
 header ul li a:hover,
@@ -123,18 +124,18 @@ header ul li a:focus {
     letter-spacing: 2px;
     transition: all ease-in-out 300ms;
 }
-.orange-photo-section {
-}
+
+.orange-photo-section {}
+
 .orange-photo img {
     width: 100%;
 }
 
 .txt-about-health h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 30px;
     text-transform: uppercase;
-
 }
 
 @media(min-width: 800px) {
