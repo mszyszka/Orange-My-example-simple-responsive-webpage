@@ -23,7 +23,9 @@ header {
     width: 86%;
     margin: 0 auto;
 }
-
+.ad {
+    display: none;
+}
 .logo {
     float: left;
     font-size: 1.4 rem;
@@ -164,6 +166,9 @@ header ul li a:focus {
     position: relative;
     text-align: center;
     padding-bottom: 30px;
+    -webkit-box-shadow: 2px -3px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px -3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px -3px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .site-footer .logo {
@@ -186,7 +191,7 @@ header ul li a:focus {
 @media(min-width: 650px) {
     .gray-beam {
         padding: 10px 85px;
-        z-index: 100;
+            font-size: 1rem;
     }
 }
 
@@ -249,5 +254,11 @@ header ul li a:focus {
         width: 60%;
         display: block;
         margin: auto;
+    }
+    
+    .ad {
+        position: fixed;
+        top: 500px;
+        left: 30px;
     }
 }
